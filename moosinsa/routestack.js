@@ -7,8 +7,8 @@ export default function RouteStack(){
    return(
          <Stack.Navigator>
             <Stack.Screen name='Home' component={Home} options={{headerShown:false}}/>
-            <Stack.Screen name="Sign_up" component={Sign_up}/>
-            <Stack.Screen name="Lobby" component={Lobby}/>
+            <Stack.Screen name="Sign_up" component={Sign_up} options={{headerShown:false}}/>
+            <Stack.Screen name="Lobby" component={Lobby} options={{headerShown:false}}/>
          </Stack.Navigator>
    )
 }
